@@ -8,7 +8,9 @@
     "dotenv": "^8.0.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-scripts": "3.0.1",
+    "telebot": "^1.4.1",
+    "typescript": "^3.9.7"
   },
   "devDependencies": {
     "concurrently": "^4.1.0",
@@ -26,7 +28,7 @@
     "prettier": "^1.17.1"
   },
   "scripts": {
-    "start": "bash bin/dev.sh",
+    "start": "node src/index.js",
     "build": "react-scripts build",
     "deploy": "deploy-node-app",
     "test": "react-scripts test",
